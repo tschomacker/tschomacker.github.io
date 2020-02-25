@@ -1,0 +1,140 @@
+title: "Thorben"
+prename: "Thorben"
+surname: ""
+menu:
+  items:
+    - name: "Projekte"
+      URL: "#portfolio"
+# showcase
+showcase:
+  enable: true
+  title: "Moin, Ich bin Thorben."
+  subtitle: "Student: Angewandte Informatik, BSc"
+  description: "Momentan bin ich mit meiner Abschlussarbeit beschäftigt."
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "E-Mail"
+    URL: "https://radity.com/en/contact/"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/thorben-schomacker/"
+
+    - icon: "github"
+      URL: "https://github.com/tschomacker"
+
+    - icon: "kaggle"
+      URL: "https://www.kaggle.com/tschomacker"
+
+# about
+about:
+  enable: false
+
+# education
+education:
+  enable: true
+  title: "Bildung"
+  items:
+    - university: "HAW Hamburg"
+      year: "2016-2020"
+      degree: "Bachelor of Science (BSc), Angewandte Informatik"
+
+# experience
+experience:
+  enable: true
+  title: "Erfahrung"
+  description: ""
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/thorben-schomacker/"
+
+  items:
+    - title: "IT Service"
+      company: "Uni Hamburg"
+      duration: "Dez 2017 - heute"
+
+# Client & Work
+client_and_work:
+  title: "Projekte"
+  enable: true
+  works:
+    - title: "Tron"
+      description: "Java Multiplayer Spiel, welches über Netzwerk mit bis zu 4 Spielern spielbar ist. Dieses Projekt ist Teil der Verteilte Systeme Vorlesung im Sommersemester 2019. Bearbeitet wurde es von 2 Personen in 6 Montaten."
+      tech_tools:
+        - item: "Java 9"
+        - item: "JavaFX"
+        - item: "Java Spring"
+        - item: "Maven"
+      learnings:
+        - item: "Server Sent Events mit Spring"
+        - item: "GUI Programmierung mit JavaFX"
+        - item: "Algorithmen verteilter Systeme"
+      button:
+        enable: false
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/projects/tron.png"
+        _2x: "img/projects/tron@2x.png"
+      is_even: true
+      
+    - title: "News Scraper"
+      description: "Konsolentool mit dem automatisch Artikel von Online-Nachrichten Seiten heruntergeladen werden könnnen. Inklusive Benachritigung per E-Mail. Privates Projekt, dass in einem Monat bearbeitet wurde."
+      tech_tools:
+        - item: "Python"
+        - item: "Beautiful Soup"
+      learnings:
+        - item: "Web Scraping mit Python"
+      button:
+        enable: true
+        icon: "icon-arrow-right"
+        btnText: "Source Code"
+        URL: "#"
+      image:
+        x: "img/projects/news-paper.jpg"
+        _2x: "img/projects/news-paper.jpg"
+      is_even: false
+
+    - title: "Fit-Mate"
+      description: "Full-Responsive Web-App mit der Trainingspartner in der Umgebung gefunden werden können. Teil der Software-Engineering Vorlesung im Wintersemester 2018/2019. Bearbeitet wurde das Projekt von 6 Personen in 6 Montaten mit 2 Wochen Srum Sprints."
+      tech_tools:
+        - item: "Angular 8"
+        - item: "Spark Server"
+        - item: "SQLite DB"
+        - item: "Docker"
+        - item: "Gradle"
+        - item: "Kubernetes"
+      learnings:
+        - item: "Auth-Guards in Angular"
+        - item: "Angular Apps entwickeln"
+        - item: "Responsive CSS"
+      button:
+        enable: false
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/projects/fit-mate.png"
+        _2x: "img/projects/fit-mate@2x.png"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: false
+
+# contact
+contact:
+  enable: false
+
+# newsletter
+newsletter:
+  enable: false
+
