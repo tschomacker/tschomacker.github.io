@@ -9,8 +9,8 @@ menu:
 showcase:
   enable: true
   title: "Moin, Ich bin Thorben."
-  subtitle: "Student: Angewandte Informatik, BSc"
-  description: "Momentan bin ich mit meiner Abschlussarbeit beschäftigt."
+  subtitle: "Student: MSc. Informatik - Data Science"
+  description: "Momentan bin ich mit meiner Bachelorarbeit beschäftigt."
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
@@ -42,6 +42,9 @@ education:
   title: "Bildung"
   items:
     - university: "HAW Hamburg"
+      year: "2020-2023"
+      degree: "Master of Science (MSc), Informatik, Schwerpunkt: Data Science"
+    - university: "HAW Hamburg"
       year: "2016-2020"
       degree: "Bachelor of Science (BSc), Angewandte Informatik"
 
@@ -65,6 +68,70 @@ client_and_work:
   title: "Projekte"
   enable: true
   works:
+    - title: "BertSum"
+      description: "Teil meiner Bachelorarbeit"
+      tech_tools:
+        - item: "Python"
+        - item: "ROUGE"
+      learnings:
+        - item: "Wissenschaftliches Arbeiten"
+        - item: "BertSum"
+        - item: "NLP-Metriken"
+      button:
+        enable: false
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/projects/reaction-insight.png"
+        _2x: "img/projects/reaction-insight@2x.jpg"
+      is_even: false
+    - title: "Word Graph"
+      description: "Wort Analyse-Tool für mittelalterliche Texte. "
+      tech_tools:
+        - item: "Neo4J"
+        - item: "Python"
+        - item: "Flask"
+        - item: "Fast-API"
+        - item: "Angular 9"
+      learnings:
+        - item: "API Erstellung mit Python+Flask"
+        - item: "Scraping von aufwengien XML-Dokumenten"
+        - item: "Datenbankdesign in Graphdatenbanken"
+      button:
+        enable: false
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/projects/reaction-insight.png"
+        _2x: "img/projects/reaction-insight@2x.jpg"
+      is_even: true
+    - title: "Reaction Insight"
+      description: "Big Data Anwendung, die Kommentare von Online-Nachrichten Seite mit Hilfe von machine learning auswertet. z. B. Klassifiezierung von Spam-Kommentaren. Teil des Universitäts-Projekts Big Data und machine learning im Sommersemester 2020. Bearbeitet wurde das Projekt von 6 Personen in 6 Montaten."
+      tech_tools:
+        - item: "Python"
+        - item: "Kafka"
+        - item: "Spark Streaming"
+        - item: "Angular 9"
+        - item: "PyTorch"
+        - item: "Jupyter Notebooks"
+        - item: "Docker"
+        - item: "MongoDB"
+      learnings:
+        - item: "Deployment von Angular Web-Apps"
+        - item: "Docker-Container"
+        - item: "Orchestrierung mit Docker Compose"
+        - item: "NoSQL Queries in MongoDB"
+      button:
+        enable: false
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/projects/reaction-insight.png"
+        _2x: "img/projects/reaction-insight@2x.jpg"
+      is_even: false
     - title: "Tron"
       description: "Java Multiplayer Spiel, welches über Netzwerk mit bis zu 4 Spielern spielbar ist. Dieses Projekt ist Teil der Verteilte Systeme Vorlesung im Sommersemester 2019. Bearbeitet wurde es von 2 Personen in 6 Montaten."
       tech_tools:
