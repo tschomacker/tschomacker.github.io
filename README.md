@@ -61,6 +61,7 @@ You can build and execute the container by running the following command in the 
 ```bash
 docker compose up
 ```
+Some changes to the content, make it necessary to remove `Gemfile.lock`. 
 
 You should now be able to access the website from `localhost:4000`.
 
